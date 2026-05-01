@@ -33,8 +33,9 @@ h4{font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
 
 /* Topbar */
 .topbar{border-bottom:1px solid rgba(255,255,255,.12);font-size:13px;background:#000;color:#fff;backdrop-filter:blur(18px)}
-.topbar .top-links{display:flex;gap:16px;padding:6px 0}
-.topbar .top-actions{display:flex;gap:12px}
+.topbar .top-links{display:flex;gap:16px;padding:6px 0;text-align:center}
+.topbar .top-links a{display:inline-flex;align-items:center;justify-content:center;text-align:center}
+.topbar .top-actions{display:flex;gap:12px;text-align:center}
 .topbar a{color:#fff}
 .topbar .btn-ghost{color:#fff}
 
@@ -196,6 +197,7 @@ h4{font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
 .site-footer{background:linear-gradient(135deg,#020617,#050814 55%,#000);color:#fff;margin-top:48px}
 .footer-grid{display:grid;grid-template-columns:1.45fr .8fr .9fr .7fr;gap:34px;padding:56px 0 54px;align-items:start}
 .footer-col{display:grid;gap:10px;align-content:start}
+.footer-col h4{margin:0 0 8px;color:#fff;font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
 .footer-brand{font-family:Montserrat,Inter,sans-serif;font-size:20px;font-weight:900;letter-spacing:-.02em}
 .footer-tagline{max-width:36ch;margin:0;color:#e5e7eb;line-height:1.65}
 .footer-registration{margin:6px 0 0;color:#94a3b8;font-size:13px;line-height:1.6}
