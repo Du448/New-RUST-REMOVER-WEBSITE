@@ -272,6 +272,15 @@ body.baseline::before{content:"";position:fixed;inset:0;pointer-events:none;z-in
 @media (max-width: 640px){
   .main-nav{gap:12px;font-size:12px}
   .hero h1{font-size:32px}
+  .comparison{padding:26px 0}
+  .comparison .section-heading{margin-bottom:12px}
+  .comparison .section-heading span{font-size:9px;margin-bottom:5px}
+  .comparison .section-heading h2{font-size:24px;line-height:1.08}
+  .comparison-table-wrap{overflow:visible;border-radius:16px;box-shadow:0 8px 24px rgba(2,8,23,.06)}
+  .comparison-table{min-width:0;width:100%;table-layout:fixed}
+  .comparison-table th,.comparison-table td{padding:7px 4px;font-size:9px;line-height:1.12;word-break:break-word}
+  .comparison-table thead th{font-size:8px;letter-spacing:.03em}
+  .comparison-table tbody th{width:auto;font-size:9px}
   .services-grid{grid-template-columns:1fr}
   .benefits-grid{grid-template-columns:1fr}
   .form-grid{grid-template-columns:1fr}
